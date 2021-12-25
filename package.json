@@ -1,0 +1,12 @@
+{
+  "name": "httpswithnode",
+  "version": "0.0.1",
+  "description": "https with node server",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node server.js"
+  },
+  "author": "",
+  "license": "ISC"
+}

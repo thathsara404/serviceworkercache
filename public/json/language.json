@@ -1,0 +1,9 @@
+{
+    "header": {
+        "appName": "Test App: Service Worker Cache"
+    },
+    "about": {
+        "header": "About the application",
+        "description": "This application was developed for testing service worker cache."
+    }
+}

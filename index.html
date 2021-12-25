@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./public/css/main.css">
+    <title>HTTPS Server Home Page</title>
+</head>
+
+<body>
+    <!-- Service Worker Activation -->
+    <script src="./serviceworkerInit.js" defer></script>
+    <header class="header">
+        <h1 id="appName"></h1>
+    </header>
+    <section class="container">
+        <article>
+            <h2 id="aboutHeader"></h2>
+            <p id="aboutDescription"></p>
+            <picture>
+                <source media="(min-width:600px)" 
+                        srcset="./public/img/design2.jpg">
+                <source srcset="./public/img/design.png">
+                <img src="./public/img/design.png"
+                   width="100%" height="360"
+                   alt="design" >
+              </picture>
+        </article>
+    </section>
+    <footer>
+
+    </footer>
+    <script src="./public/js/main.js"></script>
+</body>
+</html>

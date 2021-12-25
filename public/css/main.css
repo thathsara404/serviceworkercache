@@ -1,0 +1,21 @@
+body {
+    font-family: 'PT Sans', sans-serif;
+}
+
+.container {
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: aliceblue;
+    display: flex;
+    padding: 10px;
+}
+
+.header {
+    height: auto;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
